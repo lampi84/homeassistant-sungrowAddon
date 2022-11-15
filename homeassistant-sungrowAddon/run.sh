@@ -1,3 +1,5 @@
 #!/usr/bin/with-contenv bashio
+set +u
 
-echo "Hello world!"
+bashio::log.info "Starting bridge service."
+npm run start
