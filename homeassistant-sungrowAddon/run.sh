@@ -1,5 +1,11 @@
-#!/usr/bin/with-contenv bashio
-set +u
+#!/bin/bash
+set -e
 
-bashio::log.info "Starting bridge service."
-npm run start
+CONFIG_PATH=/data/options.json
+CONNECTION_STRING="$(jq --raw-output '.connectionString' $CONFIG_PATH)"
+
+echo Hello!
+node -v
+npm -v
+npm install
+node index.js
