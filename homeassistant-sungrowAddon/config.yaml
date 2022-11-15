@@ -1,6 +1,6 @@
 name: "Sungrow Integration"
 description: "Addon for integrating sungrow inverter without using Sungrow portal"
-version: "1.0.0"
+version: "1.1.0"
 slug: "sungrow_integration"
 init: false
 arch:
