@@ -1,0 +1,20 @@
+{
+  "name": "homeassistant-sungrowAddon",
+  "version": "1.0.0",
+  "description": "Addon for integrating a sungrow inverter without using the sungrow portal just in local network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lampi84/homeassistant-sungrowAddon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lampi84/homeassistant-sungrowAddon/issues"
+  },
+  "homepage": "https://github.com/lampi84/homeassistant-sungrowAddon#readme"
+}
